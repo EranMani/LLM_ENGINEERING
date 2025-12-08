@@ -28,7 +28,8 @@ print("The tutor is constructing his answer...")
 stream = ollama.chat(
     model=MODEL,
     messages=messages,
-    stream=True
+    stream=True,
+    options={"temperature": 0.8}
 )
 
 print(f"The tutor has answered your question: {user_input}, With this:")
