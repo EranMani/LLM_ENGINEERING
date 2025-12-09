@@ -49,4 +49,6 @@ dependencies = [
     "langchain-anthropic>=1.0.1",
     "langchain-experimental>=0.0.42",
     "nicegui>=3.4.0",
+    "selenium>=4.39.0",
+    "webdriver-manager>=4.0.2",
 ]
